@@ -1,0 +1,134 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.readable-area {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 0 15%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #fffde7;
+}
+
+.name {
+  font-family: "Peralta", cursive;
+}
+
+.role {
+  font-weight: 500;
+}
+
+img {
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+  border: 4px solid #5e35b1;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  justify-content: end;
+  align-items: center;
+  border-bottom: 4px solid #000000;
+}
+
+.header-text {
+  text-align: end;
+  margin-right: 16px;
+}
+
+/* container */
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-column {
+  flex: 1;
+  padding: 0px 16px 16px 16px;
+  background-color: white;
+}
+
+.section-title {
+  background-color: #ffeb3b;
+  border-left: solid 4px #fbc02d;
+  padding: 8px 16px;
+  text-transform: UPPERCASE;
+  font-weight: 500;
+  margin: 16px 0px;
+}
+
+.title-icon {
+  margin-right: 8px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.place {
+  margin-left: 16px;
+}
+
+.skill-title {
+  flex: 1;
+}
+
+.gauge {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+
+.bullet {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  margin: 4px;
+  background-color: #fff59d;
+}
+
+.filled-bullet {
+  background-color: #fbc02d;
+}
+
+.skill {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+  .readable-area {
+    margin: 0 5%;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+}
