@@ -22,10 +22,12 @@ body {
 
 .name {
   font-family: "Peralta", cursive;
+  color: #000;
 }
 
 .role {
   font-weight: 500;
+  color: #000;
 }
 
 img {
@@ -42,6 +44,7 @@ img {
   justify-content: end;
   align-items: center;
   border-bottom: 4px solid #000000;
+  text-decoration: none;
 }
 
 .header-text {
